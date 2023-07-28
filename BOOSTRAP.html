@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+    <title>Nature Gallery</title>
+    <style>
+      .jumbotron {
+        text-align: center;
+        padding: 20px;
+        margin: 10px 0;
+      }
+
+      .gallery {
+        padding: 40px;
+      }
+
+      .gallery img {
+        width: 100%;
+        border-radius: 0;
+        position: relative;
+      }
+    </style>
+  </head>
+
+  <body>
+  <div class="container-fluid">
+    <div class="jumbotron">
+      <h1>Beauty of Nature</h1>
+      <p>The gifts of nature are indeed uncountable and extremely beautiful. The beauty of nature fills our hearts with joy and peace. We are awed by the spectacular sights of nature, and at the same time amazed by their serenity.</p>
+    </div>
+    
+    <div class="row gallery">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <a href="img1.webp">
+          <img class="img-fluid"src="img1.webp" style="height:300px;border:1px solid black;border-radius:25px;">
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <a href="img2.jpeg">
+          <img class="img-fluid"src="img2.jpeg" style="height:300px;border:1px solid black;border-radius:25px;">
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <a href="img3.jpeg">
+          <img class="img-fluid"src="img3.jpeg" style="height:300px;border:1px solid black;border-radius:25px;">
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <a href="img4.jpeg">
+          <img class="img-fluid"src="img4.jpeg" style="height:300px;border:1px solid black;border-radius:25px;">
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <a href="img5.webp">
+          <img class="img-fluid"src="img5.webp" style="height:300px;border:1px solid black;border-radius:25px;">
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <a href="img6.jpeg">
+          <img class="img-fluid"src="img6.jpeg" style="height:300px;border:1px solid black;border-radius:25px;">
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <a href="img7.jpeg">
+          <img class="img-fluid"src="img7.jpeg" style="height:300px;border:1px solid black;border-radius:25px;">
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <a href="img8.jpeg">
+          <img class="img-fluid"src="img8.jpeg" style="height:300px;border:1px solid black;border-radius:25px;">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+  <script>
+    baguetteBox.run(".gallery", {
+      animation: "slideIn"
+    });
+  </script>
+  </body>
+
+</html>
